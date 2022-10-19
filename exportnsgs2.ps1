@@ -1,3 +1,9 @@
+
+#From https://learn.microsoft.com/en-us/answers/questions/671154/need-to-get-the-nsg-details-from-all-our-subscript.html
+#exports all NSGs and what NIC, subnet, or VNET they are associated with.
+
+
+
 $subs = Get-AzSubscription
 
 #Looping on all subscriptions

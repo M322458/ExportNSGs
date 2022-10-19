@@ -1,3 +1,8 @@
+
+#From https://learn.microsoft.com/en-us/answers/questions/671154/need-to-get-the-nsg-details-from-all-our-subscript.html
+#exports all NSGs and rules that are in them.
+
+
 $subs = Get-AzSubscription
 $outputfile = "C:\temp\NsgRules2.csv"
 
