@@ -1,5 +1,6 @@
 $subs = Get-AzSubscription
 $outputfile = "C:\temp\NsgRules2.csv"
+
 foreach ($sub in $subs) {
 	Select-AzSubscription -SubscriptionId $sub.Id
 	$nsgs = Get-AzNetworkSecurityGroup
