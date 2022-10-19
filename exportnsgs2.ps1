@@ -1,4 +1,5 @@
 $subs = Get-AzSubscription
+
 #Looping on all subscriptions
 foreach ($sub in $subs){
   Select-AzSubscription -SubscriptionId $sub.Id
